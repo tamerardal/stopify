@@ -10,5 +10,13 @@ export default StyleSheet.create({
   },
   cardTitle: {
     fontWeight: '600',
+    fontSize: 20,
   },
+  cardTextContainer: {
+    flexDirection: 'row',
+  },
+  cardYear: {
+    marginLeft: 5,
+  },
+  cardImage: {},
 });
