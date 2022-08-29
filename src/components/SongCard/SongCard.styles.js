@@ -20,7 +20,8 @@ export default StyleSheet.create({
     flexDirection: 'row',
   },
   secondCardTextContainer: {
-    paddingTop: 5,
+    paddingTop: 2,
+    paddingLeft: 5,
     flexDirection: 'row',
     flex: 1,
   },
@@ -59,5 +60,9 @@ export default StyleSheet.create({
     color: 'red',
     paddingLeft: 3,
     paddingRight: 3,
+  },
+  album: {
+    paddingLeft: 5,
+    fontWeight: '500',
   },
 });
