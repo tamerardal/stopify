@@ -4,9 +4,7 @@ export default StyleSheet.create({
   container: {
     borderWidth: 0.25,
     borderColor: 'gray',
-    marginLeft: 5,
-    marginRight: 5,
-    marginTop: 5,
+    margin: 5,
     borderRadius: 25,
     backgroundColor: 'gainsboro',
     height: 40,
