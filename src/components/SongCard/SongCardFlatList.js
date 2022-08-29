@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlatList, View, StyleSheet} from 'react-native';
+import {FlatList, View, StyleSheet, SafeAreaView} from 'react-native';
 import SongCard from './SongCard';
 import songData from '../../music-data.json';
 import SearchBar from '../SearchBar/SearchBar';
@@ -10,15 +10,16 @@ const SongCardFlatList = song => {
   const renderSeperator = () => <View style={styles.seperator} />;
 
   return (
-    <FlatList
-      data={songData}
-      renderItem={renderSong}
-      keyExtractor={renderKey}
-      ListHeaderComponent={() => {
-        return <SearchBar />;
-      }}
-      ItemSeparatorComponent={renderSeperator}
-    />
+    <SafeAreaView>
+      <SearchBar />
+      <FlatList
+        data={songData}
+        renderItem={renderSong}
+        keyExtractor={renderKey}
+        ListHeaderComponent={() => {}}
+        ItemSeparatorComponent={renderSeperator}
+      />
+    </SafeAreaView>
   );
 };
 
