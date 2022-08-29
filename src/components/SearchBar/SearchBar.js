@@ -4,8 +4,8 @@ import styles from './SearchBar.styles';
 
 const SearchBar = () => {
   return (
-    <View>
-      <TextInput>Search..</TextInput>
+    <View style={styles.container}>
+      <TextInput style={styles.text}>Search..</TextInput>
     </View>
   );
 };

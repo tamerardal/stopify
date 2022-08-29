@@ -2,6 +2,7 @@ import React from 'react';
 import {FlatList, View, StyleSheet} from 'react-native';
 import SongCard from './SongCard';
 import songData from '../../music-data.json';
+import SearchBar from '../SearchBar/SearchBar';
 
 const SongCardFlatList = song => {
   const renderSong = ({item}) => <SongCard song={item} />;
@@ -13,7 +14,9 @@ const SongCardFlatList = song => {
       data={songData}
       renderItem={renderSong}
       keyExtractor={renderKey}
-      ListHeaderComponent={() => {}}
+      ListHeaderComponent={() => {
+        return <SearchBar />;
+      }}
       ItemSeparatorComponent={renderSeperator}
     />
   );
