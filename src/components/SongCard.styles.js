@@ -7,6 +7,7 @@ export default StyleSheet.create({
     borderBottomWidth: 0.5,
     padding: 5,
     margin: 5,
+    flexDirection: 'row',
   },
   cardTitle: {
     fontWeight: '600',
@@ -17,11 +18,11 @@ export default StyleSheet.create({
   cardTextContainer: {
     paddingTop: 5,
     flexDirection: 'row',
-    alignItems: 'flex-end',
   },
   secondCardTextContainer: {
     paddingTop: 5,
     flexDirection: 'row',
+    flex: 1,
   },
   cardYear: {
     marginLeft: 5,
@@ -37,6 +38,7 @@ export default StyleSheet.create({
   },
   secondCardContainer: {
     paddingLeft: 20,
+    flex: 1,
   },
   cardArtist: {
     color: 'black',
@@ -46,5 +48,8 @@ export default StyleSheet.create({
     borderColor: 'red',
     borderWidth: 1,
     borderRadius: 3,
+    textAlign: 'right',
+    paddingLeft: 2,
+    paddingRight: 2,
   },
 });
