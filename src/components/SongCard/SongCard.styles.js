@@ -57,5 +57,7 @@ export default StyleSheet.create({
     paddingTop: 3,
     fontWeight: '400',
     color: 'red',
+    paddingLeft: 3,
+    paddingRight: 3,
   },
 });
