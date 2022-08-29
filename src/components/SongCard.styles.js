@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {StyleSheet, Dimensions} from 'react-native';
 
 export default StyleSheet.create({
   cardContainer: {
@@ -11,6 +11,7 @@ export default StyleSheet.create({
   cardTitle: {
     fontWeight: '600',
     fontSize: 20,
+    color: 'black',
   },
   cardTextContainer: {
     flexDirection: 'row',
@@ -18,5 +19,20 @@ export default StyleSheet.create({
   cardYear: {
     marginLeft: 5,
   },
-  cardImage: {},
+  cardImage: {
+    height: 100,
+    width: 100,
+    overflow: 'hidden',
+    borderRadius: 400 / 2,
+  },
+  cardImageContainer: {
+    flexDirection: 'row',
+  },
+  secondCardContainer: {
+    paddingLeft: 10,
+  },
+  cardArtist: {
+    color: 'black',
+    fontWeight: '400',
+  },
 });

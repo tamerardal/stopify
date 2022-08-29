@@ -5,11 +5,19 @@ import styles from './SongCard.styles';
 const SongCard = ({song}) => {
   return (
     <View style={styles.cardContainer}>
-      <Image style={styles.cardImage} source={{uri: song.imageUrl}} />
-      <Text style={styles.cardTitle}>{song.title}</Text>
-      <View style={styles.cardTextContainer}>
-        <Text>{song.artist}</Text>
-        <Text style={styles.cardYear}>{song.year}</Text>
+      <View style={styles.cardImageContainer}>
+        <Image
+          style={styles.cardImage}
+          source={{uri: song.imageUrl}}
+          resizeMode="cover"
+        />
+        <View style={styles.secondCardContainer}>
+          <Text style={styles.cardTitle}>{song.title}</Text>
+          <View style={styles.cardTextContainer}>
+            <Text style={styles.cardArtist}>{song.artist}</Text>
+            <Text style={styles.cardYear}>{song.year}</Text>
+          </View>
+        </View>
       </View>
     </View>
   );
