@@ -28,6 +28,7 @@ const SongCardFlatList = song => {
         keyExtractor={renderKey}
         ListHeaderComponent={() => {}}
         ItemSeparatorComponent={renderSeperator}
+        style={{marginBottom: 100}}
       />
     </SafeAreaView>
   );
