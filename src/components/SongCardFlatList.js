@@ -19,3 +19,5 @@ const SongCardFlatList = song => {
     />
   );
 };
+
+export default SongCardFlatList;

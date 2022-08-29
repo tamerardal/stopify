@@ -12,3 +12,5 @@ function SongCard(song) {
     </View>
   );
 }
+
+export default SongCard;
