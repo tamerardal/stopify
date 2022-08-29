@@ -10,12 +10,12 @@
     },
     {
       "id": "1",
-      "title": "Epitaph",
-      "artist": "King Crimson",
-      "album": "In The Court Of The Crimson King",
-      "year": 1969,
-      "isSoldOut": true,
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730e36a62897cf3f5937bf9c16"
+      "title": "Devil's Work",
+      "artist": "Freddie Dredd",
+      "album": "Suffer",
+      "year": 2020,
+      "isSoldOut": false,
+      "imageUrl": "https://cdns-images.dzcdn.net/images/cover/e7ce2aaca2830306f824612af705f7f1/500x500.jpg"
     },
     {
       "id": "2",
@@ -46,12 +46,12 @@
     },
     {
       "id": "5",
-      "title": "Habibi",
-      "artist": "Tamino",
-      "album": "Amir",
-      "year": 2018,
+      "title": "Ditty",
+      "artist": "Freddie Dredd",
+      "album": "Ditty",
+      "year": 2019,
       "isSoldOut": false,
-      "imageUrl": "https://i.scdn.co/image/f17ddfa246db1b8e1f681f658be732b0779d7ea2"
+      "imageUrl": "https://i1.sndcdn.com/artworks-As7qcGlMHX7x-0-t500x500.jpg"
     },
     {
       "id": "6",
