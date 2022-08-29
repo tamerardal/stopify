@@ -14,8 +14,13 @@ const SongCard = ({song}) => {
         <View style={styles.secondCardContainer}>
           <Text style={styles.cardTitle}>{song.title}</Text>
           <View style={styles.cardTextContainer}>
-            <Text style={styles.cardArtist}>{song.artist}</Text>
-            <Text style={styles.cardYear}>{song.year}</Text>
+            <View style={styles.secondCardTextContainer}>
+              <Text style={styles.cardArtist}>{song.artist}</Text>
+              <Text style={styles.cardYear}>{song.year}</Text>
+            </View>
+            <View style={styles.soldout}>
+              <Text>SOLD OUT</Text>
+            </View>
           </View>
         </View>
       </View>
