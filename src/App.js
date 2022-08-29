@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, SafeAreaView, StyleSheet} from 'react-native';
-import SongCardFlatList from './components/SongCardFlatList';
+import SongCardFlatList from './components/SongCard/SongCardFlatList';
 
 function App() {
   return (
