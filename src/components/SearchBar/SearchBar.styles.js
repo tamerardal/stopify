@@ -2,17 +2,18 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   container: {
-    borderWidth: 0.1,
+    borderWidth: 0.25,
     borderColor: 'gray',
-    marginLeft: 10,
-    marginRight: 10,
+    marginLeft: 5,
+    marginRight: 5,
     marginTop: 5,
     borderRadius: 25,
-    backgroundColor: 'lightgray',
+    backgroundColor: 'gainsboro',
     height: 40,
-    elevation: 5,
+    elevation: 2,
   },
   text: {
-    paddingLeft: 10,
+    paddingLeft: 15,
+    fontSize: 16,
   },
 });
