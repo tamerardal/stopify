@@ -23,6 +23,9 @@ const SongCard = ({song}) => {
             </View>
           )}
         </View>
+        <View>
+          <Text>{song.album}</Text>
+        </View>
       </View>
     </View>
   );

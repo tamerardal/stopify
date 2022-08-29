@@ -14,7 +14,7 @@ export default StyleSheet.create({
     fontWeight: '600',
     fontSize: 22,
     color: 'black',
-    paddingTop: 10,
+    paddingTop: 2,
   },
   cardTextContainer: {
     flexDirection: 'row',
