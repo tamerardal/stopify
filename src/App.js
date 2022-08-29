@@ -1,12 +1,12 @@
 import React from 'react';
-import {View, Text, SafeAreaView, Flatlist, StyleSheet} from 'react-native';
-import songData from './music-data.json';
+import {View, Text, SafeAreaView, StyleSheet} from 'react-native';
+import SongCardFlatList from './components/SongCardFlatList';
 
 function App() {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={styles.container}>
       <View>
-        <Text />
+        <SongCardFlatList />
       </View>
     </SafeAreaView>
   );

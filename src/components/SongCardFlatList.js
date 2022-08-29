@@ -4,18 +4,15 @@ import SongCard from './SongCard';
 import songData from '../music-data.json';
 
 const SongCardFlatList = song => {
-  const renderSong = ({item}) => {
-    <SongCard song={item} />;
-  };
-  const renderKey = item => {
-    item.id.toString();
-  };
+  const renderSong = ({item}) => <SongCard song={item} />;
+  const renderKey = item => item.id.toString();
 
   return (
     <FlatList
       data={songData}
       renderItem={renderSong}
       keyExtractor={renderKey}
+      ListHeaderComponent={() => {}}
     />
   );
 };
