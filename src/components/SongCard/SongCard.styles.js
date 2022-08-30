@@ -55,7 +55,7 @@ export default StyleSheet.create({
   },
   soldoutText: {
     fontSize: 12,
-    paddingTop: 3,
+    paddingTop: 1.5,
     fontWeight: '400',
     color: 'red',
     paddingLeft: 3,
